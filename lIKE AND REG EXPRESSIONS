@@ -1,0 +1,4 @@
+SELECT name ,city from emp1230 where regexp_like(name,'r');
+select city from emp1230 where regexp_like(city,'^a');
+select id,name,city from emp1230 where regexp_like(name,'^g|^a');
+select name from emp1230 where regexp_like(name,'i{2}','i');
