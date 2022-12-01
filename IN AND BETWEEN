@@ -1,0 +1,4 @@
+select * from emp1230 where deptno between 10 and 20;
+SELECT name,id FROM emp1230 WHERE Salary IN (30000, 40000, 25000);
+SELECT id,name,salary,age  FROM Emp1230 WHERE age NOT BETWEEN 30 AND 45;
+SELECT * FROM emp1230 WHERE age BETWEEN 30 AND 40 AND city NOT IN (kolkata,mumbai,chennai);
