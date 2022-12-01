@@ -1,0 +1,3 @@
+select * from emp1230;
+select ename,job,sal,comm,hiredate from emp1230;
+select distinct deptno FROM emp1230;
