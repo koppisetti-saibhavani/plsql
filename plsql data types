@@ -1,0 +1,21 @@
+declare
+num number :='&n';
+dt1 date := to_date('&dt','DD-MON-YY');
+get_day varchar2(15);
+grd char:='&ch'
+v_bool boolean
+begin
+dbms_output.put_line('number = '||num);
+dbms_output.put_line('date = '||dt1);
+dbms_output.put_line('charecter = '||grd);
+IF (v_bool IS NULL) THEN
+ DBMS_OUTPUT.PUT_LINE('By default the value is NULL');
+ ELSEIF (v_bool = TRUE) THEN
+ DBMS_OUTPUT.PUT_LINE('By default the value is TRUE');
+ ELSE
+ DBMS_OUTPUT.PUT_LINE('By default the value is FALSE');
+ END IF;
+end;
+
+
+
