@@ -1,0 +1,3 @@
+select * from emp1230 where EMPNO =2 order by sal DESC ;
+SELECT EMPNO,SAL FROM EMP1230 WHERE SAL>154 ORDER  BY 1 ;
+select * from emp1230 where EMPNO =1 order by sal DESC ;
