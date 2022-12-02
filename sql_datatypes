@@ -1,0 +1,7 @@
+Data types are used to represent the nature of the data that can be stored in the database table. For example, in a particular column of a table, if we want to store a string type of data then we will have to declare a string data type of this column.
+
+Data types mainly classified into three categories for every database.
+
+String Data types
+Numeric Data types
+Date and time Data types
