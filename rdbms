@@ -1,0 +1,5 @@
+A Relational Database Management System is referred to as RDBMS. The data is stored in relational tables. These tables have several rows and columns, also known as records and fields. A key is a common name for the unique ID that each document has. Millions of rows could exist in an RDBMS. The columns frequently include only one type of data per row, such as the names and numbers that make up the record characteristics. Because RDBMSs allow for the usage of the data in relation to other stored datasets, the majority of modern organizations, IT systems, and other programs frequently employ them.
+
+
+An RDBMS uses the relational database paradigm, which organizes data into tables and frequently makes it simple to add new entries and link them to existing records and tables. Each system often comprises a different number of tables, and each table has its unique primary key. Each table is identified by its main key. The table's rows each contain information for a single entry, but the table's columns provide details about each individual field.
+
