@@ -1,0 +1,8 @@
+SELECT ASCII(ename) AS NumCodeOfFirstChar
+FROM emp;
+
+
+SELECT CHAR(65) AS Cd from dual;
+
+
+SELECT CONCAT('job', 'ename') as nm from emp;
