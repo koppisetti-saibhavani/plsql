@@ -1,0 +1,13 @@
+CREATE OR REPLACE PROCEDURE divide_it (
+    p_numerator     IN  NUMBER,
+    p_denominator   IN  NUMBER,
+    p_result        OUT NUMBER
+)
+IS
+BEGIN
+    IF p_denominator = 0 THEN
+        NULL;
+    ELSE
+        p_result := p_numerator / p_denominator;
+    END IF;
+END;
