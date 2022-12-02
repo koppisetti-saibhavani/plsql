@@ -1,3 +1,12 @@
+Numeric
+Numeric values on which arithmetic operations are performed.
+Character
+Alphanumeric values that represent single characters or strings of characters.
+Boolean
+Logical values on which logical operations are performed.
+Datetime
+Dates and times.
+
 declare
 num number :='&n';
 dt1 date := to_date('&dt','DD-MON-YY');
