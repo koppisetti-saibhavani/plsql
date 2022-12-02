@@ -1,0 +1,21 @@
+--example 1
+
+DECLARE 
+a NUMBER :=10;
+BEGIN
+dbms_output.put_line(‘Program started.' );
+IF( a > 100 ) THEN
+dbms_output.put_line('a is greater than 100'); 
+END IF;
+dbms_output.put_line(‘Program completed.');
+END;
+
+--example 2
+
+DECLARE 
+a CHAR(1) :=’u’;
+BEGIN
+IF UPPER(a) in ('A’,'E','I','0','U' ) THEN 
+dbms_output.put_line(‘The character is in English Vowels');
+END IF;
+END;
